@@ -11,5 +11,10 @@ pipeline {
                 echo "Complete"
             }
         }
+        stage('Complete2') {
+            steps {
+                echo "Complete Yusuf"
+            }
+        }
     }
 }
