@@ -21,5 +21,10 @@ pipeline {
                 echo "Complete Yusuf3"
             }
         }
+        stage('Finished') {
+            steps {
+                echo "Finished"
+            }
+        }
     }
 }
